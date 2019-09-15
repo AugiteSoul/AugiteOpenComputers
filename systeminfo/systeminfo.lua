@@ -5,13 +5,6 @@ local component = require("component")
 local gpu = component.gpu
 local term = require("term")
 
---internet stuff, thanks to payonel@irc
-local internet
-if component.isAvailable("internet")
-then 
-internet = require("internet")
-end
-
 --AESTHETICS
 gpu.setForeground(0xC14892)
 term.write("Systeminfo by AugiteSoul/augitesoul@twitter/augitesoul.fr/augitesoul@ocforums\n\n")
