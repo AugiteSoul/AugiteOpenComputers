@@ -17,20 +17,6 @@ gpu.setForeground(0xC14892)
 term.write("Systeminfo by AugiteSoul/augitesoul@twitter/augitesoul.fr/augitesoul@ocforums\n\n")
 
 os.sleep(0.25)
---internet part, thanks to CptMercury@ocforums
-if component.isAvailable("internet") then
-local response = internet.request("http://augitesoul.fr/cgi-bin/fortune4.sh")
-if response then
-  for fort in response do
-    term.write(fort)
-    term.write("\n")
-     if fort ~= nil then
-      end
-     end
-  end
-else end
-
-os.sleep(0.25)
 term.write("Loading data...\n\n")
 
 --actually obtaining and showing the data
